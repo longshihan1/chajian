@@ -25,7 +25,7 @@ public class MainActivity extends MVPBaseActivity<IGirlView,GirlPresenterV1> imp
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
         mPresenter.fetch();
-       
+
     }
 
     @Override
